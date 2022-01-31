@@ -1,0 +1,58 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.4
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 11.0.11
+java.home            : C:\Program Files\Java\jdk-11.0.11
+os.name              : Windows 10
+os.arch              : amd64
+os.version           : 10.0
+file.encoding        : UTF-8
+========================
+Run Started on Thu May 27 12:06:31 IST 2021
+Loading Browser Profile
+Loading RunManager
+[Scenario:NewScenario] [TestCase: Test] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+ApiLink not available!!
+Run Manager true
+Continue Execution true
+Shutting Down Thread as there is no need for SelectiveThreading
+Inside Task Run
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 28547
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2021-05-27 12:06:35:05S +0530 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: W3C
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://www.google.com/ | Conditon:  | @27-May-2021 12:06:35.035
+[DONE]   | Opened Url: https://www.google.com/
+
+===================================================================================================
+
+Step:2   | Object: Browser | Action: takeScreenshot | Input:  | Conditon:  | @27-May-2021 12:06:36.036
+[PASS]   | Screenshot is taken
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : NewScenario:Test
+Executed Steps       : 2
+Passed Steps         : 2
+Failed Steps         : 0
+Time Taken           : 00:00:05
+-----------------------------------------------------
+
+Run Finished on Thu May 27 12:06:38 IST 2021
+-----------------------------------------------------
+ExecutionDate        : 27-May-2021 12-06-31
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:05
+ReportPath           : file:///E:\cognizant-intelligent-test-scripter-1.4-setup\cognizant-intelligent-test-scripter-1.4\Projects\Test\Results\TestDesign\NewScenario\Test\27-May-2021 12-06-31\summary.html
+-----------------------------------------------------

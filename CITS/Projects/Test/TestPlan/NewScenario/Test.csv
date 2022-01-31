@@ -1,0 +1,9 @@
+Step,ObjectName,Description,Action,Input,Condition,Reference
+1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.google.com/,,
+2,Browser,"Take a Screen Shot ",takeScreenshot,,,
+3,Google_Search,"Wait for [<Object>] to be clickable ",imgClickIfExists,,,Google
+4,Browser,"Take a Screen Shot ",takeScreenshot,,,
+5,App,Type [<Data>] on the screen,typeOnScreen,@weather Today,,
+6,Browser,"Take a Screen Shot ",takeScreenshot,,,
+7,App,"Press [<Data>] key on keyboard ",keyboardKey,@Enter,,
+8,Browser,"Take a Screen Shot ",takeScreenshot,,,

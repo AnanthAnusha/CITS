@@ -1,0 +1,16 @@
+<Root type="OR" ref="Test">
+  <Page ref="Google" Url="Google.png">
+    <ObjectGroup ref="Google_Search">
+      <Object ref="Google_Search">
+        <Property value="538,394,477,51" ref="Coordinates" pref="1"/>
+        <Property value="" ref="Index" pref="2"/>
+        <Property value="-230,0" ref="Offset" pref="3"/>
+        <Property value="0.7f" ref="Precision" pref="4"/>
+        <Property value="0,0,1536,864" ref="ROI" pref="5"/>
+        <Property value="Google_Search_Ref.png" ref="Reference" pref="6"/>
+        <Property value="" ref="Text" pref="7"/>
+        <Property value="Google_Search.png" ref="Url" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>
